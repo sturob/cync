@@ -1780,7 +1780,7 @@ window.onload = function() {
             $(window)
                 .bind('touchmove', touchDrag)
                 .bind('touchend', touchEnd);
-            return false;
+            //return false;
             
             //Call the shape's mouse click method, if it has one
             if (typeof shape.onMouseDown === 'function') {shape.onMouseDown(e, offset, localClickPos);}
